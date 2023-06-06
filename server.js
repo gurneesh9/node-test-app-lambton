@@ -36,7 +36,7 @@ app.get("/valueofday/:year(\\d{4})-:month(\\d{2})-:day(\\d{2})", (req, res) => {
   console.log(req.params)
   res.send(req.params)
 });
-  
+//test  
 app.listen(process.env.PORT  || SERVER_PORT, () => {
     console.log(`Server running at http://${SERVER_HOST}:${SERVER_PORT}/`);
 })
